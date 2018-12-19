@@ -444,7 +444,7 @@ body {
   margin: 0;
   padding: 0;
   background: #fefefe;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Open Sans", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
   line-height: 1.5;
   color: #fefefe;
@@ -2902,7 +2902,6 @@ input:checked + label > .switch-inactive {
   border: 1px solid #cacaca;
   background: #fefefe; }
 .dropdown .is-dropdown-submenu a {
-  font-weight: bold;
   padding: 0.7rem 1rem; }
 .is-dropdown-submenu .is-dropdown-submenu-parent > a::after {
   right: 14px; }
