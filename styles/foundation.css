@@ -447,7 +447,7 @@ body {
   font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
   line-height: 1.5;
-  color: #333333;
+  color: #fefefe;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
@@ -619,11 +619,11 @@ h6, .h6 {
 
 a {
   line-height: inherit;
-  color: #0056a2;
+  color: #16a085;
   text-decoration: none;
   cursor: pointer; }
 a:hover, a:focus {
-  color: #004a8b; }
+  color: #e67e22; }
 a img {
   border: 0; }
 
@@ -839,7 +839,7 @@ textarea {
 [type='text']:focus, [type='password']:focus, [type='date']:focus, [type='datetime']:focus, [type='datetime-local']:focus, [type='month']:focus, [type='week']:focus, [type='email']:focus, [type='number']:focus, [type='search']:focus, [type='tel']:focus, [type='time']:focus, [type='url']:focus, [type='color']:focus,
 textarea:focus {
   outline: none;
-  border: 1px solid #8a8a8a;
+  border: 1px solid #16a085;
   background-color: #fefefe;
   box-shadow: 0 0 5px #cacaca;
   transition: box-shadow 0.5s, border-color 0.25s ease-in-out; }
@@ -944,7 +944,7 @@ label.middle {
   padding: 0 1rem;
   border: 1px solid #cacaca;
   background: #e6e6e6;
-  color: #222222;
+  color: #fefefe;
   text-align: center;
   white-space: nowrap;
   display: -ms-flexbox;
@@ -2318,6 +2318,7 @@ input:checked + label > .switch-inactive {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
   flex-wrap: wrap; }
 [data-whatinput='mouse'] .menu li {
   outline: 0; }
@@ -2682,6 +2683,7 @@ input:checked + label > .switch-inactive {
   left: 0; }
 
 .dropdown.menu > li.is-dropdown-submenu-parent > a {
+  font-weight: bold;
   position: relative;
   padding-right: 1.5rem; }
 
@@ -2689,7 +2691,6 @@ input:checked + label > .switch-inactive {
   display: block;
   width: 0;
   height: 0;
-  border: inset 6px;
   content: '';
   border-bottom-width: 0;
   border-top-style: solid;
@@ -2705,7 +2706,7 @@ input:checked + label > .switch-inactive {
 
 .dropdown.menu .is-active > a {
   background: transparent;
-  color: #0056a2; }
+  color: #e67e22; }
 
 .no-js .dropdown.menu ul {
   display: none; }
@@ -2901,6 +2902,7 @@ input:checked + label > .switch-inactive {
   border: 1px solid #cacaca;
   background: #fefefe; }
 .dropdown .is-dropdown-submenu a {
+  font-weight: bold;
   padding: 0.7rem 1rem; }
 .is-dropdown-submenu .is-dropdown-submenu-parent > a::after {
   right: 14px; }
