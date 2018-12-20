@@ -33,7 +33,7 @@
         <div id="app-dashboard-sidebar" class="app-dashboard-sidebar position-left off-canvas off-canvas-absolute reveal-for-medium" data-off-canvas>
             <div class="app-dashboard-sidebar-title-area">
                 <div class="app-dashboard-close-sidebar">
-                    <h3 class="app-dashboard-sidebar-block-title">GlobeDreamers</h3>
+                    <!-- <h3 class="app-dashboard-sidebar-block-title">GlobeDreamers</h3> -->
                     <!-- Close button -->
                     <button id="close-sidebar" data-app-dashboard-toggle-shrink class="app-dashboard-sidebar-close-button show-for-medium" aria-label="Close menu" type="button">
                         <span aria-hidden="true"><a href="#"><i class="large fa fa-angle-double-left"></i></a></span>

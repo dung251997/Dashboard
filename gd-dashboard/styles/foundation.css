@@ -619,7 +619,7 @@ h6, .h6 {
 
 a {
   line-height: inherit;
-  color: #16a085;
+  color: #108B9D;
   text-decoration: none;
   cursor: pointer; }
 a:hover, a:focus {
@@ -839,7 +839,7 @@ textarea {
 [type='text']:focus, [type='password']:focus, [type='date']:focus, [type='datetime']:focus, [type='datetime-local']:focus, [type='month']:focus, [type='week']:focus, [type='email']:focus, [type='number']:focus, [type='search']:focus, [type='tel']:focus, [type='time']:focus, [type='url']:focus, [type='color']:focus,
 textarea:focus {
   outline: none;
-  border: 1px solid #16a085;
+  border: 1px solid #108B9D;
   background-color: #fefefe;
   box-shadow: 0 0 5px #cacaca;
   transition: box-shadow 0.5s, border-color 0.25s ease-in-out; }
@@ -2312,13 +2312,11 @@ input:checked + label > .switch-inactive {
 
 .menu {
   padding: 0;
-  margin: 0;
   list-style: none;
   position: relative;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
   flex-wrap: wrap; }
 [data-whatinput='mouse'] .menu li {
   outline: 0; }
@@ -2973,7 +2971,7 @@ input:checked + label > .switch-inactive {
   flex-wrap: wrap; }
 .top-bar,
 .top-bar ul {
-  background-color: #e6e6e6; }
+  background-color: transparent; }
 .top-bar input {
   max-width: 200px;
   margin-right: 1rem; }
@@ -3266,7 +3264,6 @@ input:checked + label > .switch-inactive {
   top: 0;
   left: 0;
   height: 100%;
-  overflow-y: auto;
   width: 250px;
   -ms-transform: translateX(-250px);
   transform: translateX(-250px); }
@@ -3280,7 +3277,7 @@ input:checked + label > .switch-inactive {
   -ms-transform: translateX(250px);
   transform: translateX(250px); }
 .position-left.is-transition-push {
-  box-shadow: inset -13px 0 20px -13px rgba(10, 10, 10, 0.25); }
+   }
 
 .position-right {
   top: 0;

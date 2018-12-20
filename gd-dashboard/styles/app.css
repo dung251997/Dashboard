@@ -26,8 +26,12 @@ body {
   flex-direction: column; }
 
 .app-dashboard-body {
+  padding-top: 1%;
   flex: 1 1 auto;
   display: flex; }
+  .app-dashboard-sidebar-block-title{
+    color: #16a085;
+  }
 
 .app-dashboard-top-nav-bar {
   display: flex;
@@ -83,15 +87,13 @@ body {
 .app-dashboard-sidebar {
   background-color: #fefefe;
   height: 100%;
-  overflow-x: visible;
-  overflow-y: auto;
   z-index: 1;
   transition: all 0.5s ease; }
   .app-dashboard-sidebar .app-dashboard-open-sidebar, .app-dashboard-sidebar .app-dashboard-close-sidebar {
     align-items: baseline;
     display: flex;
     justify-content: space-between;
-    padding: 2rem 1rem; }
+    }
   .app-dashboard-sidebar .app-dashboard-sidebar-close-button {
     font-size: 14px; }
   .app-dashboard-sidebar .app-dashboard-sidebar-inner {
@@ -123,7 +125,7 @@ body {
   overflow-y: auto;
   flex: 1 1 0;
   padding: 20px;
-  background-color: #fefefe; }
+  background-color: #edf1f7; }
 
 .dashboard-number-card {
   background: #fff;
@@ -612,7 +614,7 @@ body {
     display: block;
   }
   .app-dashboard.shrink-large .app-dashboard-sidebar {
-    width: 80px;
+    width: 40px;
   }
   .app-dashboard.shrink-large .app-dashboard-sidebar .fa.large {
     width: auto;
@@ -761,6 +763,15 @@ body {
 }
 #container-avatar{
   box-shadow: unset !important;
+}
+#app-dashboard-sidebar{
+  padding-top: 4%;
+  overflow: hidden !important;
+  box-shadow: unset !important;
+}
+.dropDown{
+  padding-left: auto;
+  padding-right: auto;
 }
 
 /*# sourceMappingURL=app-dashboard-layout.css.map */
