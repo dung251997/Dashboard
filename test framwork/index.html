@@ -1,0 +1,177 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foundation for Sites</title>
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.css">
+  </head>
+  <body>
+<!--
+  <video width="100%" height="100%" class="background" autoplay muted loop>
+  <source src="https://codepen.jonnitto.ch/BackgroundVideo.mp4" type="video/mp4">
+</video>
+-->
+<div class="card-profile-stats">
+  <div class="card-profile-stats-intro">
+    <img class="card-profile-stats-intro-pic" src="https://pbs.twimg.com/profile_images/732634911761260544/OxHbNdTF.jpg" alt="profile-image" />
+    <div class="card-profile-stats-intro-content">
+      <h3>Joe Smith</h3>
+      <p>Joined Jan.16th 2017</p>
+    </div> <!-- /.card-profile-stats-intro-content -->
+  </div> <!-- /.card-profile-stats-intro -->
+
+  <hr />
+
+  <div class="card-profile-stats-container">
+    <div class="card-profile-stats-statistic">
+      <span class="stat">25</span>
+      <p>posts</p>
+    </div> <!-- /.card-profile-stats-statistic -->
+    <div class="card-profile-stats-statistic">
+      <span class="stat">125</span>
+      <p>followers</p>
+    </div> <!-- /.card-profile-stats-statistic -->
+    <div class="card-profile-stats-statistic">
+      <span class="stat">88</span>
+      <p>likes</p>
+    </div> <!-- /.card-profile-stats-statistic -->
+  </div> <!-- /.card-profile-stats-container -->
+
+  <div class="card-profile-stats-more">
+    <p class="card-profile-stats-more-link"><a href="#"><i class="fa fa-angle-down" aria-hidden="true"></i></a></p>
+    <div class="card-profile-stats-more-content">
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem libero fugit, pariatur maxime! Optio enim, deserunt quia molestiae fugiat delectus, dolore et esse nostrum, quod autem necessitatibus fugit soluta repellendus.
+      </p>
+    </div> <!-- /.card-profile-stats-more-content -->
+  </div> <!-- /.card-profile-stats-more -->
+</div> <!-- /.card-profile-stats -->
+   
+<form class="form1" action="">
+ <h3>Information Perso:</h3>
+   <input type="radio" name="rb" id="rb1" />
+  <label for="rb1">Male</label>
+  <input type="radio" name="rb" id="rb2" />
+  <label for="rb2">Femme</label>
+  <div class="row">
+      <p>Nom:</p>
+       <div class="small-12 column">
+        <input type="text" id="text" name="text" required>
+        <p>Prénom:</p>
+      </div>
+    </div>
+        <div class="small-12 column">
+        <input type="text" id="text" name="text" required>
+        <p>Date de Naissance:</p>
+      </div>
+    <div class="small-12 column">
+        <input type="email" id="email" name="email" required>
+        <p>Tel:</p>
+      </div>
+
+    <div class="small-12 column">
+        <input type="tel" id="tel" name="tel">
+        <p>Addresse:</p>
+      </div>
+     <div class="small-12 column">
+        <input type="text" id="text" name="d">
+      </div>
+  <p class="p1">Reseaux Social</p>
+<form>
+  <div class="form-icons">
+
+    <div class="input-group">
+      <span class="input-group-label">
+        <i class="fa fa-facebook-square"></i>
+      </span>
+      <input class="input-group-field" type="text" placeholder="Facebook">
+    </div>
+
+    <div class="input-group">
+      <span class="input-group-label">
+        <i class="fa fa-skype"></i>
+      </span>
+      <input class="input-group-field" type="text" placeholder="Skype">
+    </div>
+
+    <div class="input-group">
+      <span class="input-group-label">
+        <i class="fa fa-instagram"></i>
+      </span>
+      <input class="input-group-field" type="text" placeholder="Instagram">
+    </div>
+    
+    <div class="input-group">
+      <span class="input-group-label">
+        <i class="fa fa-youtube"></i>
+      </span>
+      <input class="input-group-field" type="text" placeholder="Youtube">
+    </div>
+    
+  </div>
+</form>
+      </form>
+      <div class="password">
+             <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 col-xs-12 main">
+                <div class="page-header">
+                    <h1>Change Password</h1>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-md-10 col-md-push-1 col-lg-8 col-lg-push-2 well">
+                        <form id="form" accept-charset="UTF-8" action="/change-password" autocomplete="on" class="form-horizontal" method="post">
+                            <div class="form-inputs">
+                                <div class="form-group">
+                                    <label class="control-label col-sm-3 col-md-4" for="current_password">L'ancien mot de pass:*</label>
+                                    <div class="col-sm-9 col-md-8">
+                                        <input autocomplete="current-password" class="form-control" id="current_password" name="currentPassword" required="" type="password" placeholder="L'ancien mot de pass">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="control-label col-sm-3 col-md-4" for="new_password">Mots de pass:*</label>
+                                    <div class="col-sm-9 col-md-8">
+                                        <input autocomplete="new-password" class="form-control" id="new_password" name="newPassword" type="password" placeholder="Mots de pass">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="control-label col-sm-3 col-md-4" for="password_confirmation">Confirmer mots de pass:*</label>
+                                    <div class="col-sm-9 col-md-8">
+                                        <input autocomplete="new-password" class="form-control" id="confirm_password" type="password" placeholder="Confirmer mots de pass">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-actions text-right">
+                             <button class="updatePass" onClick="">Mise à jour</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>  
+      </div>
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script>
+    <script type="text/javascript">
+        // more click
+$('.card-profile-stats-more-link').click(function(e){
+  e.preventDefault();
+  if ( $(".card-profile-stats-more-content").is(':hidden') ) {
+    $('.card-profile-stats-more-link').find('i').removeClass('fa-angle-down').addClass('fa-angle-up');
+  } else {
+    $('.card-profile-stats-more-link').find('i').removeClass('fa-angle-up').addClass('fa-angle-down');
+  }
+  $(this).next('.card-profile-stats-more-content').slideToggle();
+});
+      </script>
+      
+  </body>
+</html>
