@@ -5,9 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GlobeDreamers's Table de bord</title>
-    <link rel="stylesheet" href="gd-dashboard/styles/foundation.css">
-    <link rel="stylesheet" href="gd-dashboard/styles/font-awesome.css">
-    <link rel="stylesheet" href="gd-dashboard/styles/app.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 </head>
 <body>
 <?php require('global/template-components/header.php'); ?>
@@ -181,10 +179,10 @@
 
 <?php require('global/template-components/footer.php');?>
 <?php require('global/template-components/scripts_index.php'); ?>
-<script src="gd-dashboard/scripts/vendor/jquery.js"></script>
-<script src="gd-dashboard/scripts/vendor/what-input.js"></script>
-<script src="gd-dashboard/scripts/vendor/foundation.js"></script>
-<script src="gd-dashboard/scripts/app.js"></script>
+<script src="global/tinymce/vendor/jquery.js"></script>
+<script src="global/tinymce/vendor/what-input.js"></script>
+<script src="global/tinymce/vendor/foundation.js"></script>
+<script src="global/tinymce/app.js"></script>
 
 <script type="text/javascript">
     $(document).foundation();
