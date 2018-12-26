@@ -96,7 +96,7 @@
                                     </div>
                                 </div>
                                 <h4 class="title">Globe Dreamers<br />
-                                    <a href="#"><small>@globedreamersFrnace</small></a>
+                                    <a href="#"><small>@globedreamersFrance</small></a>
                                 </h4>
                             </div>
                             <p class="description text-center">

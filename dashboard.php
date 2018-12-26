@@ -48,7 +48,7 @@
                     <li><a href="index.html" class="is-active">
                         <i class="large fa fa-chart-line"></i><span class="app-dashboard-sidebar-text">Dashboard</span>
                     </a></li>
-                        <li><a href="user.html">
+                        <li><a href="utilisateur.php">
                         <i class="large fa fa-user"></i><span class="app-dashboard-sidebar-text">Utilisateur</span>
                     </a></li>
                     <li><a href="financier.html">
