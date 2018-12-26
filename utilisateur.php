@@ -65,7 +65,6 @@
                                 <div class="row">
                                     <div class="columns">
                                         <div class="form-group">
-                                            <label>Avatar</label>
                                             <div class="input-group">
                                                 <span class="input-group-btn">
                                                     <div class="btn btn-default btn-light browse-button">
@@ -124,7 +123,7 @@
                                     <div class="row">
                                         <form action="post">
                                             <input type="file" name="fileupload" value="fileupload" id="fileupload">
-                                            <label for="fileupload"> Select a file to upload</label>
+                                            <label for="fileupload"> Choix la photo de votre passport</label>
                                             <button class="btn-pass">Mise à jour</button>
                                         </form>
                                     </div>
@@ -133,72 +132,6 @@
                             </ul>
                         </div>
                     </div>
-
-                    <!--
-                    <div class="card">
-                        <div class="header">
-                            <h4 class="title">Membres de l'équipe</h4>
-                        </div>
-                        <div class="content">
-                            <ul class="list-unstyled team-members">
-                                <li>
-                                    <div class="row">
-                                        <div class="col-xs-3">
-                                            <div class="avatar">
-                                                <img src="img/faces/face-0.jpg" alt="Circle Image" class="img-circle img-no-padding img-responsive">
-                                            </div>
-                                        </div>
-                                        <div class="col-xs-6">
-                                            Directrices GlobeDreamers
-                                            <br />
-                                            <span class="text-muted"><small>En-Ligne</small></span>
-                                        </div>
-
-                                        <div class="col-xs-3 text-right">
-                                            <btn class="btn btn-sm btn-success btn-icon"><i class="fa fa-envelope"></i></btn>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="row">
-                                        <div class="col-xs-3">
-                                            <div class="avatar">
-                                                <img src="img/faces/face-1.jpg" alt="Circle Image" class="img-circle img-no-padding img-responsive">
-                                            </div>
-                                        </div>
-                                        <div class="col-xs-6">
-                                            Anh-Tuan (Developpeur Font-End)
-                                            <br />
-                                            <span class="text-success"><small>Disponible</small></span>
-                                        </div>
-
-                                        <div class="col-xs-3 text-right">
-                                            <btn class="btn btn-sm btn-success btn-icon"><i class="fa fa-envelope"></i></btn>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="row">
-                                        <div class="col-xs-3">
-                                            <div class="avatar">
-                                                <img src="img/faces/face-3.jpg" alt="Circle Image" class="img-circle img-no-padding img-responsive">
-                                            </div>
-                                        </div>
-                                        <div class="col-xs-6">
-                                            L'équipe Marketing
-                                            <br />
-                                            <span class="text-danger"><small>Disponible</small></span>
-                                        </div>
-
-                                        <div class="col-xs-3 text-right">
-                                            <btn class="btn btn-sm btn-success btn-icon"><i class="fa fa-envelope"></i></btn>
-                                        </div>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
--->
 
                     <div class="card">
                         <div class="header">
@@ -281,12 +214,14 @@
                         <div class="content">
                             <form>
                                 <div class="row">
+<!--
                                     <div class="columns large-4">
                                         <div class="form-group">
                                             <label>Société</label>
                                             <input type="text" class="form-control border-input" disabled placeholder="Company" value="GlobeDreamers">
                                         </div>
                                     </div>
+-->
                                     <!--
                                     <div class="columns large-4">
                                         <div class="form-group">
