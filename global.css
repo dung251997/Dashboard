@@ -10336,7 +10336,7 @@ button {
   line-height: 1;
   cursor: auto; }
 [data-whatinput='mouse'] button {
-  outline: 0; }
+  outline: 0;}
 
 pre {
   overflow: auto; }
@@ -15371,7 +15371,8 @@ a.thumbnail image {
 }
 
 .places-buttons .btn{
-    margin-bottom: 30px
+    margin-bottom: 30px;
+    
 }
 .sidebar .nav > li.active-pro{
     position: absolute;
@@ -15680,6 +15681,15 @@ a.thumbnail image {
     padding-left: 10%;
     padding-right: 10%;
   }
+.btn-pass {
+  border: 2px solid gray;
+  color: gray;
+  background-color: white;
+  padding: 8px 20px;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: bold;
+}
 /*=======*/
 
 /*---------------*/
