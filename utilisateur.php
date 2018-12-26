@@ -33,14 +33,14 @@
             </div>
             <div class="app-dashboard-sidebar-inner">
                 <ul class="menu vertical">
-                    <li><a href="index.html">
+                    <li><a href="dashboard.php">
                             <i class="large fa fa-chart-line"></i><span class="app-dashboard-sidebar-text">Dashboard</span>
                         </a></li>
-                    <li><a href="user.html" class="is-active">
+                    <li><a href="utilisateur.php" class="is-active">
                             <i class="large fa fa-user"></i><span class="app-dashboard-sidebar-text">Utilisateur</span>
                         </a></li>
-                    <li><a href="financier.html">
-                            <i class="large fa fa-institution"></i><span class="app-dashboard-sidebar-text">Financiers</span>
+                    <li><a href="entreprise.php">
+                            <i class="large fa fa-institution"></i><span class="app-dashboard-sidebar-text">Entreprise</span>
                         </a></li>
                     <li><a href="projet.html">
                             <i class="large fa fa-table"></i><span class="app-dashboard-sidebar-text">Projets</span>
