@@ -46,10 +46,10 @@
             <div class="app-dashboard-sidebar-inner">
                 <ul class="menu vertical">
                     <li><a href="index.html" class="is-active">
-                        <i class="large fa fa-tachometer"></i><span class="app-dashboard-sidebar-text">Dashboard</span>
+                        <i class="large fa fa-chart-line"></i><span class="app-dashboard-sidebar-text">Dashboard</span>
                     </a></li>
                         <li><a href="user.html">
-                        <i class="large fa fa-file-text-o"></i><span class="app-dashboard-sidebar-text">Utilisateur</span>
+                        <i class="large fa fa-user"></i><span class="app-dashboard-sidebar-text">Utilisateur</span>
                     </a></li>
                     <li><a href="financier.html">
                         <i class="large fa fa-institution"></i><span class="app-dashboard-sidebar-text">Financiers</span>
@@ -176,7 +176,6 @@
         </div>
     </div>
 </div>
-
 <?php require('global/template-components/footer.php');?>
 <?php require('global/template-components/scripts_index.php'); ?>
 <script src="global/tinymce/vendor/jquery.js"></script>
