@@ -12,7 +12,7 @@
 
     $URL_S3="https://s3-eu-west-1.amazonaws.com/gd-v2-staging/";
 
-    ?><link rel="stylesheet"href="<?php echo $URL_S3; ?>css/foundation/foundation.min.css"/><link rel="stylesheet"href="<?php echo $URL_S3; ?>css/foundation/foundation-datepicker.min.css"/><link rel="stylesheet"href="global.css?<?php echo time(); ?>"/><link rel="stylesheet"href="animate.css"/><link rel="stylesheet"href="reward.css"/><link href="https://fonts.googleapis.com/css?family=Comfortaa|Open+Sans"rel="stylesheet"><style type="text/css">@font-face {
+    ?><link rel="stylesheet"href="<?php echo $URL_S3; ?>css/foundation/foundation.min.css"/><link rel="stylesheet"href="<?php echo $URL_S3; ?>css/foundation/foundation-datepicker.min.css"/><link rel="stylesheet"href="global.css?<?php echo time(); ?>"/><link rel="stylesheet"href="reward.css"/><link href="https://fonts.googleapis.com/css?family=Comfortaa|Open+Sans"rel="stylesheet"><style type="text/css">@font-face {
         font-family: 'OpenSans';
         src: url('<?php echo $URL_S3; ?>fonts/opensans-regular-webfont.eot?');
         src: local('☺'),

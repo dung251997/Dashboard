@@ -6,9 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Entreprise</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="main.js"></script>
     <?php require('global/template-components/head_general.php'); ?>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+        crossorigin="anonymous">
 </head>
 
 <body>
@@ -16,17 +16,20 @@
 
     <div class="app-dashboard-body off-canvas-wrapper">
 
-        <div id="app-dashboard-sidebar" class="app-dashboard-sidebar position-left off-canvas off-canvas-absolute reveal-for-medium" data-off-canvas style="padding-top: 100px;">
+        <div id="app-dashboard-sidebar" class="app-dashboard-sidebar position-left off-canvas off-canvas-absolute reveal-for-medium"
+            data-off-canvas style="padding-top: 100px;">
             <div class="app-dashboard-sidebar-title-area">
                 <div class="app-dashboard-close-sidebar">
                     <!-- <h3 class="app-dashboard-sidebar-block-title">GlobeDreamers</h3> -->
                     <!-- Close button -->
-                    <button id="close-sidebar" data-app-dashboard-toggle-shrink class="app-dashboard-sidebar-close-button show-for-medium" aria-label="Close menu" type="button">
+                    <button id="close-sidebar" data-app-dashboard-toggle-shrink class="app-dashboard-sidebar-close-button show-for-medium"
+                        aria-label="Close menu" type="button">
                         <span aria-hidden="true"><a href="#"><i class="large fa fa-angle-double-left"></i></a></span>
                     </button>
                 </div>
                 <div class="app-dashboard-open-sidebar">
-                    <button id="open-sidebar" data-app-dashboard-toggle-shrink class="app-dashboard-open-sidebar-button show-for-medium" aria-label="open menu" type="button">
+                    <button id="open-sidebar" data-app-dashboard-toggle-shrink class="app-dashboard-open-sidebar-button show-for-medium"
+                        aria-label="open menu" type="button">
                         <span aria-hidden="true"><a href="#"><i class="large fa fa-angle-double-right"></i></a></span>
                     </button>
                 </div>
@@ -72,13 +75,16 @@
                                                             <i class="fa fa-folder-open"></i> Chercher</span>
                                                         <input id="avatarField" type="file" accept=".jpg,.png" name="attachment" />
                                                     </div>
-                                                    <button type="button" class="btn btn-default btn-light clear-button" style="display:none;">
+                                                    <button type="button" class="btn btn-default btn-light clear-button"
+                                                        style="display:none;">
                                                         <span class="fa fa-times"></span> Supprimer
                                                     </button>
                                                 </span>
-                                                <input type="text" class="form-control filename" disabled="disabled" placeholder="Please click on Chercher button and select a image file">
+                                                <input type="text" class="form-control filename" disabled="disabled"
+                                                    placeholder="Please click on Chercher button and select a image file">
                                                 <span class="input-group-btn">
-                                                    <button class="btn btn-primary btn-light upload-button avatar-button" type="button">
+                                                    <button class="btn btn-primary btn-light upload-button avatar-button"
+                                                        type="button">
                                                         <i class="fa fa-upload"></i>
                                                         Mise en ligne
                                                     </button>
@@ -111,7 +117,7 @@
                             </div>
                         </div>
                     </div>
-                     <div class="card">
+                    <div class="card">
                         <div class="content">
                             <div class="container-fluid">
 
@@ -127,19 +133,22 @@
                                         <div class="columns large-12">
                                             <div class="form-group">
                                                 <label>Numéro de SIRET</label>
-                                                <input type="number" class="form-control border-input" placeholder="Numéro de SIRET" value="" minlength="8">
+                                                <input type="number" class="form-control border-input" placeholder="Numéro de SIRET"
+                                                    value="" minlength="8">
                                             </div>
                                         </div>
                                         <div class="columns large-12">
                                             <div class="form-group">
                                                 <label>Numéro de RNA</label>
-                                                <input type="text" class="form-control border-input" placeholder="Numéro de RNA" value="" minlength="8">
+                                                <input type="text" class="form-control border-input" placeholder="Numéro de RNA"
+                                                    value="" minlength="8">
                                             </div>
                                         </div>
                                         <div class="columns large-6">
                                             <div class="form-group">
                                                 <label>Numéro de TVA</label>
-                                                <input type="number" class="form-control border-input" placeholder="Numéro de TVA" value="">
+                                                <input type="number" class="form-control border-input" placeholder="Numéro de TVA"
+                                                    value="">
                                             </div>
                                         </div>
                                     </div>
@@ -176,13 +185,15 @@
                                     <div class="columns large-6">
                                         <div class="form-group">
                                             <label>Slogan</label>
-                                            <input type="text" class="form-control border-input" placeholder="Slogan de l'entreprise" value="Slogan de l'entreprise">
+                                            <input type="text" class="form-control border-input" placeholder="Slogan de l'entreprise"
+                                                value="Slogan de l'entreprise">
                                         </div>
                                     </div>
                                     <div class="columns large-6">
                                         <div class="form-group">
                                             <label>Nombre de employés</label>
-                                            <input type="number" class="form-control border-input" placeholder="Nombre de employés" value="">
+                                            <input type="number" class="form-control border-input" placeholder="Nombre de employés"
+                                                value="">
                                         </div>
                                     </div>
                                 </div>
@@ -191,7 +202,8 @@
                                     <div class="columns large-12">
                                         <div class="form-group">
                                             <label>Addresse l'entreprise</label>
-                                            <input type="text" class="form-control border-input" placeholder="Addresse l'entreprise" value="Paris, France">
+                                            <input type="text" class="form-control border-input" placeholder="Addresse l'entreprise"
+                                                value="Paris, France">
                                         </div>
                                     </div>
                                 </div>
@@ -200,7 +212,8 @@
                                     <div class="columns large-12">
                                         <div class="form-group">
                                             <label>Description</label>
-                                            <textarea rows="5" class="form-control border-input" placeholder="Here can be your description" value="">GlobeDreamers est une plateforme vous permettant de financer et promouvoir vos projets de voyage humanisant ; à travers la mise en relation avec des donateurs, sponsors & associations en accord avec vos valeurs</textarea>
+                                            <textarea rows="5" class="form-control border-input" placeholder="Here can be your description"
+                                                value="">GlobeDreamers est une plateforme vous permettant de financer et promouvoir vos projets de voyage humanisant ; à travers la mise en relation avec des donateurs, sponsors & associations en accord avec vos valeurs</textarea>
                                         </div>
                                     </div>
                                 </div>
@@ -208,7 +221,8 @@
                                     <div class="columns large-12">
                                         <div class="form-group">
                                             <label>Présentation destaillée</label>
-                                            <textarea rows="5" class="form-control border-input" placeholder="Here can be your présentation destaillée" value="Présentation destaillée">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi sapiente aliquam cumque, autem hic! Quasi mollitia, officia, numquam ullam nisi hic eos magnam magni excepturi, debitis cumque tenetur minima esse!</textarea>
+                                            <textarea rows="5" class="form-control border-input" placeholder="Here can be your présentation destaillée"
+                                                value="Présentation destaillée">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi sapiente aliquam cumque, autem hic! Quasi mollitia, officia, numquam ullam nisi hic eos magnam magni excepturi, debitis cumque tenetur minima esse!</textarea>
                                         </div>
                                     </div>
                                 </div>
@@ -230,27 +244,27 @@
     <script>
         $(document).foundation();
         // DISPLAY IMAGE FILENAME
-        $(".browse-button input:file").change(function() {
-            $("input[name='attachment']").each(function() {
+        $(".browse-button input:file").change(function () {
+            $("input[name='attachment']").each(function () {
                 var fileName = $(this).val().split('/').pop().split('\\').pop();
                 $(".filename").val(fileName);
                 $(".browse-button-text").html('<i class="fa fa-refresh"></i> Change');
                 $(".clear-button").show();
             });
-            $('input[type=file]').change(function() {
+            $('input[type=file]').change(function () {
                 console.log(this.files[0].mozFullPath);
             });
         });
         var tgt;
-        document.getElementById('avatarField').onchange = function(evt) {
+        document.getElementById('avatarField').onchange = function (evt) {
             tgt = evt.target || window.event.srcElement,
                 files = tgt.files;
 
         }
-        $('.avatar-button').click(function() {
+        $('.avatar-button').click(function () {
             if (FileReader && files && files.length) {
                 var fr = new FileReader();
-                fr.onload = function() {
+                fr.onload = function () {
                     document.getElementById('avatar').src = fr.result;
                 }
                 fr.readAsDataURL(files[0]);
@@ -262,7 +276,7 @@
         });
 
         //actions happening when the button is clicked
-        $('.clear-button').click(function() {
+        $('.clear-button').click(function () {
             $('.filename').val("");
             $('.clear-button').hide();
             $('.browse-button input:file').val("");
