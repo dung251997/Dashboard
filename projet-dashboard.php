@@ -60,6 +60,7 @@
       <th>Nombre Projet</th>
       <th class="text-right" width="150">Montant</th>
       <th width="150">Status</th>
+      <th width="50">Edit</th>
     </tr>
   </thead>
   <tbody>
@@ -68,6 +69,7 @@
       <td>Madagasca</td>
       <td class="text-right">$5,412.0</td>
       <td>En cours <span class="expand-icon"></span></td>
+      <td><i class="fas fa-pen"></i></td>
     </tr>
 
     <tr class="table-expand-row-content">
@@ -81,6 +83,7 @@
       <td>New York</td>
       <td class="text-right">$14,251.30</td>
       <td>Scheduled <span class="expand-icon"></span></td>
+      <td><i class="fas fa-pen"></i></td>
     </tr>
 
     <tr class="table-expand-row-content">
@@ -95,6 +98,7 @@
       <td>Orléan</td>
       <td class="text-right">$600.10</td>
       <td>Reportés <span class="expand-icon"></span></td>
+      <td><i class="fas fa-pen"></i></td>
     </tr>
 
     <tr class="table-expand-row-content">
@@ -108,6 +112,7 @@
       <td>Lyon</td>
       <td class="text-right">$4,050.10</td>
       <td>Reportés<span class="expand-icon"></span></td>
+      <td><i class="fas fa-pen"></i></td>
     </tr>
 
     <tr class="table-expand-row-content">
@@ -121,6 +126,7 @@
       <td>Tokyo</td>
       <td class="text-right">$4,123.10</td>
       <td>Reportés<span class="expand-icon"></span></td>
+      <td><i class="fas fa-pen"></i></td>
     </tr>
 
     <tr class="table-expand-row-content">
@@ -134,6 +140,7 @@
       <td>Ho Chi Minh</td>
       <td class="text-right">$8,000.90</td>
       <td>Reportés <span class="expand-icon"></span></td>
+      <td><i class="fas fa-pen"></i></td>
     </tr>
 
     <tr class="table-expand-row-content">
@@ -147,6 +154,7 @@
       <td>Berlin</td>
       <td class="text-right">$7,081.20</td>
       <td>Oayé <span class="expand-icon"></span></td>
+      <td><i class="fas fa-pen"></i></td>
     </tr>
 
     <tr class="table-expand-row-content">
@@ -161,6 +169,7 @@
       <td>Seoul</td>
       <td class="text-right">$5,060.50</td>
       <td>carried over <span class="expand-icon"></span></td>
+      <td><i class="fas fa-pen"></i></td>
     </tr>
 
     <tr class="table-expand-row-content">

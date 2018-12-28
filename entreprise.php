@@ -122,15 +122,6 @@
                                                 <h4 for=""><i class="fas fa-key"></i>Informations légales</h4>
                                             </div>
                                         </div>
-<!--
-                                        <div class="columns large-4">
-                                            <div class="form-group">
-                                                <i class="fab fa-cc-visa fa-4x"></i>
-                                                <i class="fab fa-cc-mastercard fa-4x"></i>
-                                                <i class="fab fa-cc-amex fa-4x"></i>
-                                            </div>
-                                        </div>
--->
                                     </div>
                                     <div class="row">
                                         <div class="columns large-12">
@@ -156,7 +147,7 @@
                                     <div class="row">
                                         <div class="columns large-3">
                                             <div class="text-center">
-                                                <button type="submit" class="btn btn-info btn-fill btn-wd">Enregistrer</button>
+                                                <button type="submit" class="create-project-button-splash">Enregistrer</button>
                                             </div>
                                         </div>
                                     </div>
@@ -165,104 +156,6 @@
                             </div>
                         </div>
                     </div>
-
-
-<!--
-                    <div class="card">
-                        <div class="header">
-                            <h4 class="title">Mise enligne votre passport</h4>
-                        </div>
-                        <div class="content">
-                            <ul class="list-unstyled team-members">
-                                <li>
-                                    <div class="row">
-                                        <form action="post">
-                                            <input type="file" name="fileupload" value="fileupload" id="fileupload">
-                                            <label for="fileupload"> Choix la photo de votre passport</label>
-                                            <button class="btn-pass">Mise à jour</button>
-                                        </form>
-                                    </div>
-                                </li>
-
-                            </ul>
-                        </div>
-                    </div>
--->
-
-<!--
-                    <div class="card">
-                        <div class="header">
-                            <h4 class="title">Reseaux Social</h4>
-                        </div>
-                        <div class="content">
-                            <ul class="list-unstyled team-members">
-                                <li>
-                                    <div class="row">
-                                        <div class="columns large-3">
-                                            <div class="avatar">
-                                                <img src="img/faces/face-0.jpg" alt="Circle Image" class="img-circle img-no-padding img-responsive">
-                                            </div>
-                                        </div>
-                                        <div class="columns large-9" style="padding-top : 5px;">
-                                            <input type="text" class="form-control border-input" placeholder="City" value="instagram">
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="row">
-                                        <div class="columns large-3">
-                                            <div class="avatar">
-                                                <img src="img/faces/facebook.png" alt="Circle Image" class="img-circle img-no-padding img-responsive">
-                                            </div>
-                                        </div>
-                                        <div class="columns large-9" style="padding-top : 5px;">
-                                            <input type="text" class="form-control border-input" placeholder="City" value="facebook">
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="row">
-                                        <div class="columns large-3">
-                                            <div class="avatar">
-                                                <img src="img/faces/twitter.png" alt="Circle Image" class="img-circle img-no-padding img-responsive">
-                                            </div>
-                                        </div>
-                                        <div class="columns large-9" style="padding-top : 5px;">
-                                            <input type="text" class="form-control border-input" placeholder="City" value="twitter">
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="row">
-                                        <div class="columns large-3">
-                                            <div class="avatar">
-                                                <img src="img/faces/LinkedIn.png" alt="Circle Image" class="img-circle img-no-padding img-responsive">
-                                            </div>
-                                        </div>
-                                        <div class="columns large-9" style="padding-top : 5px;">
-                                            <input type="text" class="form-control border-input" placeholder="City" value="linkedin">
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="row">
-                                        <div class="columns large-3">
-                                            <div class="avatar">
-                                                <img src="img/faces/youtube.png" alt="Circle Image" class="img-circle img-no-padding img-responsive">
-                                            </div>
-                                        </div>
-                                        <div class="columns large-9" style="padding-top : 5px;">
-                                            <input type="text" class="form-control border-input" placeholder="City" value="youtube">
-                                        </div>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
--->
-
-
-
                 </div>
                 <div class="columns large-8">
                     <div class="card">
@@ -272,38 +165,12 @@
                         <div class="content">
                             <form>
                                 <div class="row">
-                                    <!--
-                                    <div class="columns large-4">
-                                        <div class="form-group">
-                                            <label>Société</label>
-                                            <input type="text" class="form-control border-input" disabled placeholder="Company" value="GlobeDreamers">
-                                        </div>
-                                    </div>
--->
-                                    <!--
-                                    <div class="columns large-4">
-                                        <div class="form-group">
-                                            <label>Username</label>
-                                            <input type="text" class="form-control border-input" placeholder="Username"
-                                                value="GlobeDreamers">
-                                        </div>
-                                    </div>
--->
                                     <div class="columns large-4">
                                         <div class="form-group">
                                             <label for="exampleInputEmail1">Nom de l'entreprise</label>
                                             <input type="email" class="form-control border-input" placeholder="Nom de l'entreprise">
                                         </div>
                                     </div>
-<!--
-                                    <div class="columns large-4">
-                                        <div class="form-group">
-                                            <label>Genre</label>
-                                            <input type="radio" name="gender" value="male"> Male &nbsp;
-                                            <input type="radio" name="gender" value="female"> Female
-                                        </div>
-                                    </div>
--->
                                 </div>
                                 <div class="row">
                                     <div class="columns large-6">
@@ -329,29 +196,6 @@
                                     </div>
                                 </div>
 
-<!--
-                                <div class="row">
-                                    <div class="columns large-4">
-                                        <div class="form-group">
-                                            <label>Date de Naissance</label>
-                                            <input type="number" class="form-control border-input" placeholder="Date de Naissance">
-                                        </div>
-                                    </div>
-                                    <div class="columns large-4">
-                                        <div class="form-group">
-                                            <label>Numero de Tel</label>
-                                            <input type="number" class="form-control border-input" placeholder="Numero de Tel">
-                                        </div>
-                                    </div>
-                                    <div class="columns large-4">
-                                        <div class="form-group">
-                                            <label>ID skype</label>
-                                            <input type="text" class="form-control border-input" placeholder="ID skype">
-                                        </div>
-                                    </div>
-                                </div>
--->
-
                                 <div class="row">
                                     <div class="columns large-12">
                                         <div class="form-group">
@@ -369,71 +213,13 @@
                                     </div>
                                 </div>
                                 <div class="text-center">
-                                    <button type="submit" class="btn btn-info btn-fill btn-wd">Mise à jour
+                                    <button type="submit" class="create-project-button-splash">Mise à jour
                                         Profile</button>
                                 </div>
                                 <div class="clearfix"></div>
                             </form>
                         </div>
                     </div>
-                   
-
-<!--
-                    <div class="card">
-                        <div class="content">
-                            <div class="container-fluid">
-
-                                <form>
-                                    <div class="row">
-                                        <div class="columns large-8">
-                                            <div class="form-group">
-                                                <h4 for=""><i class="fas fa-key"></i> Changer Mot de Pass</h4>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="row">
-                                        <div class="columns large-12">
-                                            <div class="form-group">
-                                                <label>L'ancien mots de pass</label>
-                                                <input type="password" class="form-control border-input" placeholder="L'ancien Mot de pass" value="" minlength="8">
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="row">
-                                        <div class="columns large-12">
-                                            <div class="form-group">
-                                                <label>Mots de pass</label>
-                                                <input type="password" class="form-control border-input" placeholder="Mot de pass actuel" value="" minlength="8">
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="row">
-                                        <div class="columns large-12">
-                                            <div class="form-group">
-                                                <label>Changer mot de Pass</label>
-                                                <input type="password" class="form-control border-input" placeholder="Tapper mots de pass que vous voulez changer" value="" minlength="8">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="columns large-3">
-                                            <div class="text-center">
-                                                <button type="submit" class="btn btn-info btn-fill btn-wd">Mise à jours</button>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </form>
-                            </div>
-                        </div>
-                    </div>
--->
-
-
-
                 </div>
             </div>
         </div>

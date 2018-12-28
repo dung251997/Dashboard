@@ -299,7 +299,7 @@
                                     </div>
                                 </div>
                                 <div class="text-center">
-                                    <button type="submit" class="btn btn-info btn-fill btn-wd">Mise à jour
+                                    <button type="submit" class="create-project-button-splash">Mise à jour
                                         Profile</button>
                                 </div>
                                 <div class="clearfix"></div>
@@ -355,7 +355,7 @@
                                     <div class="row">
                                         <div class="columns large-3">
                                             <div class="text-center">
-                                                <button type="submit" class="btn btn-info btn-fill btn-wd">Enregistrer</button>
+                                                <button type="submit" class="create-project-button-splash">Enregistrer</button>
                                             </div>
                                         </div>
                                     </div>
@@ -408,7 +408,7 @@
                                     <div class="row">
                                         <div class="columns large-3">
                                             <div class="text-center">
-                                                <button type="submit" class="btn btn-info btn-fill btn-wd">Mise à jours</button>
+                                                <button type="submit" class="create-project-button-splash">Mise à jours</button>
                                             </div>
                                         </div>
                                     </div>
