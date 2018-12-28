@@ -42,7 +42,7 @@
                             <i class="large fa fa-user"></i><span class="app-dashboard-sidebar-text">Utilisateur</span>
                         </a></li>
                     <li><a href="entreprise.php">
-                            <i class="large fa fa-institution"></i><span class="app-dashboard-sidebar-text">Entreprise</span>
+                            <i class="large fa fa-industry"></i><span class="app-dashboard-sidebar-text">Entreprise</span>
                         </a></li>
                     <li><a href="projet-dashboard.php">
                             <i class="large fa fa-table"></i><span class="app-dashboard-sidebar-text">Projets</span>
