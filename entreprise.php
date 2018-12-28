@@ -42,7 +42,7 @@
                     <li><a href="entreprise.php">
                             <i class="large fa fa-institution"></i><span class="app-dashboard-sidebar-text">Entreprise</span>
                         </a></li>
-                    <li><a href="projet.html">
+                    <li><a href="projet-dashboard.php">
                             <i class="large fa fa-table"></i><span class="app-dashboard-sidebar-text">Projets</span>
                         </a></li>
                     <li><a>
