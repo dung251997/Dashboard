@@ -227,20 +227,29 @@
           $(this).text("+");
         }
       });
-      $(".edit").click(function(){
+      $(".edit").click(function () {
         var currentTD = $(this).parents('tr').find('td');
-              if ($(this).html() == '<i class="fas fa-pen"></i>') {
-                  currentTD = $(this).parents('tr').find('td');
-                  $.each(currentTD, function () {
-                      $(this).prop('contenteditable', true)
-                  });
-              } else {
-                 $.each(currentTD, function () {
-                      $(this).prop('contenteditable', false)
-                  });
-              }
-    
-              $(this).html($(this).html() == '<i class="fas fa-pen"></i>' ? '<i class="fas fa-save"></i>' : '<i class="fas fa-pen"></i>')
+        var nextID = $(this).parents('tr').next('tr').find('td');
+        if ($(this).html() == '<i class="fas fa-pen"></i>') {
+          currentTD = $(this).parents('tr').find('td');
+          $.each(currentTD, function () {
+            $(this).prop('contenteditable', true)
+          });
+          nextID = $(this).parents('tr').next('tr').find('td');
+          $.each(nextID, function () {
+            $(this).prop('contenteditable', true)
+          });
+        } else {
+          $.each(currentTD, function () {
+            $(this).prop('contenteditable', false)
+          });
+          $.each(nextID, function () {
+            $(this).prop('contenteditable', false)
+          });
+        }
+
+        $(this).html($(this).html() == '<i class="fas fa-pen"></i>' ? '<i class="fas fa-save"></i>' :
+          '<i class="fas fa-pen"></i>')
       });
     })
   </script>
