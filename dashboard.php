@@ -57,8 +57,8 @@
                     <li><a href="projet-dashboard.php">
                         <i class="large fa fa-table"></i><span class="app-dashboard-sidebar-text">Projets</span>
                     </a></li>
-                    <li><a>
-                        <i class="large fa fa-magic"></i><span class="app-dashboard-sidebar-text">UI</span>
+                    <li><a href="carnet-projet.php">
+                        <i class="large fa fa-magic"></i><span class="app-dashboard-sidebar-text">Carnet Projet</span>
                     </a></li>
                 </ul>
             </div>
