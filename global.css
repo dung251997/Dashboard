@@ -8545,7 +8545,6 @@ label.middle {
   display: -ms-flexbox;
   display: flex;
   width: 100%;
-  margin-bottom: 1rem;
   -ms-flex-align: stretch;
   align-items: stretch; }
 .input-group > :first-child {
@@ -13430,9 +13429,18 @@ a.thumbnail image {
     list-style: none;
 }
 /*<<<<<<< HEAD*/
+
+.browse-button-text{
+    position: relative;
+}
+.input-group-btn{
+    display: flex;
+    flex-direction: row;
+}
+
   input[type=file] {
       position: absolute;
-      top: 100px;
+      top: 0;
       right: 0;
       margin: 0;
       padding: 0;
@@ -13599,8 +13607,6 @@ a.thumbnail image {
   font-size: 14px;
   text-decoration: inherit;
   border: 3px solid;
-  padding: 13px 85px;
-  margin: 20px;
   border-radius: 50px;
 }
 .text-title{
@@ -13684,4 +13690,9 @@ input:checked+.slider:before {
 
 .expland {
     display: none;
+}
+.browse-button{
+    position: relative;
+}
+.upload-button{
 }
