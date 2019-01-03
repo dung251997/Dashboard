@@ -62,7 +62,7 @@
                         <div class="content">
                             <div class="container-fluid jumbotron jumbotron-billboard">
                                 <div class="row text-content">
-                                    <div class="colums large-6 backgroundText">
+                                    <div class="colums large-10 backgroundText">
                                         <h1 class="text-title">Aline</h1>
                                         <p class="text-more">J'avais dessiné sur le sable, Son doux visage qui me souriait,Puis
                                             il a
@@ -94,7 +94,7 @@
                             </div>
                             <div class="container-fluid jumbotron jumbotron-billboard" id="rand-images">
                                 <div class="row text-content">
-                                    <div class="colums large-6 backgroundText">
+                                    <div class="colums large-10 backgroundText">
                                         <h1 class="text-title">Aline</h1>
                                         <p class="text-more">J'avais dessiné sur le sable, Son doux visage qui me souriait,Puis
                                             il a
@@ -127,7 +127,7 @@
                             </div>
                             <div class="container-fluid jumbotron jumbotron-billboard" id="rand-images">
                                 <div class="row text-content">
-                                    <div class="colums large-6 backgroundText">
+                                    <div class="colums large-10 backgroundText">
                                         <h1 class="text-title">Aline</h1>
                                         <p class="text-more">J'avais dessiné sur le sable, Son doux visage qui me souriait,Puis
                                             il a
