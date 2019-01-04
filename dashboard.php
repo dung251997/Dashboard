@@ -125,7 +125,7 @@
                                 </div>
 
                                 <div class="product-feature-section-feature bottom-right">
-                                    <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                    <i class="fa fa-map-marker-alt" aria-hidden="true"></i>
                                     <div>
                                         <p class="feature-title">Et Voyager</p>
                                         <p class="feature-desc">Hails from the Himalayans</p>

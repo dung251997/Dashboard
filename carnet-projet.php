@@ -37,7 +37,7 @@
                 </div>
                 <div class="app-dashboard-sidebar-inner">
                     <ul class="menu vertical">
-                        <li><a href="index.html" class="is-active">
+                        <li><a href="dashboard.php" class="is-active">
                                 <i class="large fa fa-chart-line"></i><span class="app-dashboard-sidebar-text">Dashboard</span>
                             </a></li>
                         <li><a href="utilisateur.php">
